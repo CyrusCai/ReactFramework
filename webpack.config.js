@@ -6,7 +6,7 @@ module.exports = {
   entry: __dirname + "/app/main.js",
   output: {
     path: __dirname + "/build",
-    publicPath: 'http://localhost:3000/build', // Use absolute paths to avoid the way that URLs are resolved by Chrome when they're parsed from a dynamically loaded CSS blob. Note: Only necessary in Dev.
+    publicPath: 'http://localhost:8080/', // Use absolute paths to avoid the way that URLs are resolved by Chrome when they're parsed from a dynamically loaded CSS blob. Note: Only necessary in Dev.
     filename: "bundle.js"
   },
   module: {

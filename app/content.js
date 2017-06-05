@@ -1,13 +1,15 @@
 import React from 'react';
 import Config from './config.json';
+import {NavLink} from 'react-router-dom'
 
 export default class Content extends React.Component {
   render() {
     return (
     <div>
-        <p>Let us rock!</p>
-        {Config.greetText}
-      </div>
+      <h2>Lets start</h2>
+      <h2><NavLink to="/test/1/Cyrus" activeStyle={{color: 'black'}}>With color red</NavLink></h2>
+      <h2><NavLink to="/test/1/Cyrus">Go to test page</NavLink></h2>
+    </div>
     )
   }
 }
