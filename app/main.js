@@ -2,7 +2,7 @@ import React from 'react';
 import {render} from 'react-dom';
 import Content from './content.js'
 import Test from './test.js'
-import './style.css';
+import './styles.scss';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 render((

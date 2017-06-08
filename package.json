@@ -4,22 +4,31 @@
   "description": "",
   "main": "bundle.js",
   "dependencies": {
+    "antd-mobile": "^1.2.0",
+    "babel-polyfill": "^6.23.0",
     "css-loader": "^0.28.3",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.1.1",
-    "style-loader": "^0.18.1"
+    "style-loader": "^0.18.1",
   },
   "devDependencies": {
+    "autoprefixer": "^7.1.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
+    "babel-plugin-import": "^1.2.1",
     "babel-plugin-react-transform": "^2.0.2",
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "html-webpack-plugin": "^2.28.0",
     "node-sass": "^4.5.3",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.5",
     "react-transform-hmr": "^1.0.4",
     "sass-loader": "^6.0.5",
+    "svg-sprite-loader": "^3.0.5",
+    "url-loader": "^0.5.8",
     "webpack": "^2.6.1"
   },
   "scripts": {

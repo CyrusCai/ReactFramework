@@ -1,5 +1,6 @@
 {
-  "presets": ["react", "es2017"],
+  "plugins": [["import", { "style": "css", "libraryName": "antd-mobile" }]],
+  "presets": ["react", "es2017", "stage-0"],
   "env": {
     "development": {
     "plugins": [["react-transform", {
